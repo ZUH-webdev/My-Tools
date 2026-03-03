@@ -1,0 +1,76 @@
+.container {
+  max-width: 980px;
+  margin: 40px auto;
+  padding: 28px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(31, 35, 72, 0.06);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero h1 {
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  color: #0f1724;
+}
+
+.hero p {
+  margin: 0;
+  color: #475569;
+}
+
+.buttons {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  background: #4c58ff;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.secondary {
+  background: transparent;
+  color: #334155;
+  border: 1px solid #e6e6f8;
+}
+
+.features {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+}
+
+.featureList {
+  list-style: disc;
+  padding-left: 20px;
+  color: #334155;
+}
+
+.screenshot {
+  background: #f8fafc;
+  border-radius: 8px;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+}
+
+@media (max-width: 720px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+  .hero h1 { font-size: 22px; }
+}
