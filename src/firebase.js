@@ -7,13 +7,13 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC_bVXntDzkID7cF5ySM35mNrR3vcVCPoM",
-  authDomain: "pocket-tools-62d40.firebaseapp.com",
-  projectId: "pocket-tools-62d40",
-  storageBucket: "pocket-tools-62d40.firebasestorage.app",
-  messagingSenderId: "944075691872",
-  appId: "1:944075691872:web:5fb35fb136a95324a2b005",
-  measurementId: "G-BYLCBMMB5E"
+  apiKey: "AIzaSyATpD53USMcO3stCxuUIV4Ok_2M69SWUF4",
+  authDomain: "my-tools-771ac.firebaseapp.com",
+  projectId: "my-tools-771ac",
+  storageBucket: "my-tools-771ac.firebasestorage.app",
+  messagingSenderId: "863115709035",
+  appId: "1:863115709035:web:b5f7486edbf5a5cdedbf2e",
+  measurementId: "G-QGFXLWZ8L9"
 };
 const app = initializeApp(firebaseConfig);
 
@@ -21,3 +21,4 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const googleProvider = new GoogleAuthProvider();
 export const facebookProvider = new FacebookAuthProvider();
+
