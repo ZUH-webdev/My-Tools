@@ -34,7 +34,7 @@ const Home = lazy(() => import("./CommonRoute/Home"));
 const About = lazy(() => import("./pages/About/About"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
 const PrivacyAndPolicy = lazy(() =>
-  import("./pages/Privicyandpolicy/PrivicyandPolicy")
+  import("./pages/PrivacyandPolicy/PrivacyAndPolicy")
 );
 const TermsOfUse = lazy(() => import("./pages/Termsofuse/TermofUse"));
 const SignIn = lazy(() => import("./pages/SignIn"));
