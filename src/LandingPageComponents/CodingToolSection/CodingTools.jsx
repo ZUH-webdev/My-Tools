@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTools } from "../../redux/slices/toolsSlice";
-import CategoryCard from "../../components/cetegorycard/CategoryCard";
+import CategoryCard from "../../components/categorycard/CategoryCard";
 
 const CodingTools = () => {
   const dispatch = useDispatch();

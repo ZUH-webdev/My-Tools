@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import CategoryCard from "../../Components/cetegorycard/CategoryCard";
+import CategoryCard from "../../Components/categorycard/CategoryCard";
 import { fetchTools } from "../../redux/slices/toolsSlice";
 
 const ColorTool = () => {

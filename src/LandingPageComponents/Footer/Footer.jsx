@@ -13,7 +13,7 @@ function Bottombar() {
         <Link className={styles.link} to="/about">About</Link>
         <Link className={styles.link} to="/termsofuse">Terms Of Use</Link>
         <Link className={styles.link} to="/contact">Contact</Link>
-        <Link className={styles.link} to="/privicyandpolicy">Privacy & Policy</Link>
+        <Link className={styles.link} to="/privacyandpolicy">Privacy & Policy</Link>
       </div>
 
       <p className={styles.text}>

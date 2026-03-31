@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Hero from "../../../components/categoryHerosection/Hero";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTools } from "../../../redux/slices/toolsSlice";
-import CategoryCard from "../../../components/cetegorycard/CategoryCard";
+import CategoryCard from "../../../components/categorycard/CategoryCard";
 // import styles from "../category.module.css";
 import BottomSection from "../../../components/categoryHerosection/BottomSection";
 import texttools from "../../../assets/texttools.svg";

@@ -3,23 +3,23 @@ import styles from "./about.module.css";
 
 import fatihtelis from "../../assets/fatihtelis.jpg";
 import { useDispatch } from "react-redux";
- import { openMail,updateMailContent } from "../../redux/slices/contactSlice"
-import {  FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { openMail, updateMailContent } from "../../redux/slices/contactSlice";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FiLink, FiMail } from "react-icons/fi";
 import SupportSection from "../../components/SupportSection";
 
 function About() {
-const dispatch=useDispatch();
-const handleContactClick = () => {
-  dispatch(updateMailContent({
-    subject: "Support Request",
-    body: "Hello, I need help with your project!",
-  }));
+  const dispatch = useDispatch();
+  const handleContactClick = () => {
+    dispatch(
+      updateMailContent({
+        subject: "Support Request",
+        body: "Hello, I need help with your project!",
+      }),
+    );
 
-  dispatch(openMail());
-};
-
-
+    dispatch(openMail());
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -60,13 +60,19 @@ const handleContactClick = () => {
               className={styles.profileImage}
             />
             <div className={styles.socialIcons}>
-              <a rel="stylesheet" href="https://x.com/fatihtelis" ><FiLink />
-</a>
-              <a rel="stylesheet" href="https://x.com/fatihtelis" > <FaTwitter  /></a>
-              <a rel="stylesheet" href="https://x.com/fatihtelis" ><FaGithub />
-</a>
-              <a rel="stylesheet" href="https://x.com/fatihtelis" ><FaLinkedin /></a>
-             
+              <a rel="stylesheet" href="https://x.com/fatihtelis">
+                <FiLink />
+              </a>
+              <a rel="stylesheet" href="https://x.com/fatihtelis">
+                {" "}
+                <FaTwitter />
+              </a>
+              <a rel="stylesheet" href="https://x.com/fatihtelis">
+                <FaGithub />
+              </a>
+              <a rel="stylesheet" href="https://x.com/fatihtelis">
+                <FaLinkedin />
+              </a>
             </div>
           </div>
           <p className={styles.text}>
@@ -83,18 +89,15 @@ const handleContactClick = () => {
       </div>
 
       <div className=" `${styles.section}`">
-        <button className= {styles.button} onClick={handleContactClick}>
+        <button className={styles.button} onClick={handleContactClick}>
           <FiMail />
           Contact Me
         </button>
 
-     <SupportSection/>
-
+        <SupportSection />
       </div>
     </div>
   );
 }
 
 export default About;
-
-

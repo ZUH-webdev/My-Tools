@@ -1,5 +1,5 @@
 import React from "react";
-// import styles from "./privicyandpolicy.module.css"
+// import styles from "./privacyandpolicy.module.css"
 export default function PrivacyAndPolicy() {
   return (
  <div className="min-h-screen flex justify-center px-4 pt-24 gap-10">

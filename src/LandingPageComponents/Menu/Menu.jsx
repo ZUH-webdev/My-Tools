@@ -9,7 +9,7 @@ const Menu = ({ isOpen, onClose }) => {
     { label: "Product Finder", href: "/product-finder" },
     { label: "About", href: "/about" },
     { label: "Terms of use", href: "/termsofuse" },
-    { label: "Privacy Policy", href: "/privicyandpolicy" },
+    { label: "Privacy Policy", href: "/privacyandpolicy" },
     { label: "Contact", href: "/contact" },
     { label: "Follow on X", href: "https://x.com/10015io" },
     { label: "Buy me a coffee", href: "https://buymeacoffee.com/fatihtelis" },

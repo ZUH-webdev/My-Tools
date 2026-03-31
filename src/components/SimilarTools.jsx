@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
-import CategoryCard from '../components/cetegorycard/CategoryCard';
+import CategoryCard from '../components/categorycard/CategoryCard';
 
 
 

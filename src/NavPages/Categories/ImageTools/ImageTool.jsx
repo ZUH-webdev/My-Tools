@@ -6,7 +6,7 @@ import BottomSection from '../../../components/categoryHerosection/BottomSection
 import { FaShareAlt } from 'react-icons/fa'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchTools} from '../../../redux/slices/toolsSlice'
-import CategoryCard from '../../../components/cetegorycard/CategoryCard'
+import CategoryCard from '../../../components/categorycard/CategoryCard'
 import { openShareModal } from '../../../redux/slices/modalSlice'
 import BuyMeACoffee from '../../../components/BuyMeACoffee'
 

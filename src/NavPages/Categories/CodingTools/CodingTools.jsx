@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchTools } from "../../../redux/slices/toolsSlice";
 import { openShareModal } from "../../../redux/slices/modalSlice";
 
-import CategoryCard from "../../../components/cetegorycard/CategoryCard";
+import CategoryCard from "../../../components/categorycard/CategoryCard";
 import Hero from "../../../components/categoryHerosection/Hero";
 import BottomSection from "../../../components/categoryHerosection/BottomSection";
 

@@ -387,7 +387,7 @@ export default function Header() {
           </Link>
 
           <Link
-            to="/privicyandpolicy"
+            to="/privacyandpolicy"
             onClick={() => setMobileMenuOpen(false)}
             className="px-4 py-3 border-b text-sm font-medium"
           >

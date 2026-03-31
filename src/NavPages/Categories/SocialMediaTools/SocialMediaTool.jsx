@@ -4,7 +4,7 @@ import social2 from "../../../assets/social2.svg";
 
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTools } from "../../../redux/slices/toolsSlice";
-import CategoryCard from '../../../components/cetegorycard/CategoryCard';
+import CategoryCard from '../../../components/categorycard/CategoryCard';
 import Hero from "../../../components/categoryHerosection/Hero";
 import BottomSection from "../../../components/categoryHerosection/BottomSection";
 

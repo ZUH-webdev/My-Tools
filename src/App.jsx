@@ -379,7 +379,7 @@ function App() {
               {/* Static */}
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/privicyandpolicy" element={<PrivacyAndPolicy />} />
+              <Route path="/privacyandpolicy" element={<PrivacyAndPolicy />} />
               <Route path="/termsofuse" element={<TermsOfUse />} />
               <Route path="/tool-request" element={<ToolRequest />} />
               <Route path="/orders" element={<Orders />} />

@@ -5,7 +5,7 @@ import { logout } from "../../authProviders";
 import { clearUser } from "../../redux/slices/authSlice";
 import { FiMail } from "react-icons/fi";
 import profile from "../../assets/profile.png";
-import CategoryCard from "../../components/cetegorycard/CategoryCard";
+import CategoryCard from "../../components/categorycard/CategoryCard";
   
 
 function Profile() {
