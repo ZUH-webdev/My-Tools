@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./About.module.css";
+import styles from "./about.module.css";
 
 import fatihtelis from "../../assets/fatihtelis.jpg";
 import { useDispatch } from "react-redux";
